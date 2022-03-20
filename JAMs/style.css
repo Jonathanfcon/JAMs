@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    font-family: 'League Gothic', sans-serif;
+    font-weight: 400;
+}
+
+.cabecalho {
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    background: url(images/SoundWaves.png) #FFD600; 
+    position: fixed;
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+}
+
+ul li {
+    padding: 20px;
+}
+
+.cabecalho-logo {
+    height: 72px;
+    width: 72px;
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho-menu-item-modes {
+    height: 50px;
+    width: 50px;
+}
+
+.conteudo-inicial {
+    background: url(images/JAMs_Banner.png);
+    height: auto;
+    width: 100%;
+    border-bottom: #FFD600 2px solid;
+}
+
+.conteudo-inicial-escrito {
+    padding-top: 275px;
+    padding-bottom: 150px;
+    padding-left: 750px;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    font-size: 50px;
+}
+
+.conteudo-inicial-escrito-botao {
+    width: 400px;
+    height: 200px;
+}
+
+.conteudo-playlist {
+    background: #070707;
+}
+
+.conteudo-playlist-titulo {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #FFD600;
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+}
+
+.conteudo-playlist-nome {
+    color: white;
+    font-size:50px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.conteudo-playlist-nome:hover {
+    color: rgb(238, 220, 139);
+    text-decoration: none;
+  }
+
+.cabecalho-menu-item:hover {
+    color: gray;
+    text-decoration: none;
+}
+
+.cabecalho-menu-item {
+    color: black;
+}
+
+.conteudo-info {
+    height: 100%;
+    background-color: #070707;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.conteudo-info-banda {
+    background-color: #FFD600;
+    width: 350px;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.informacao {
+    font-size: larger;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.conteudo-info-letra {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 30px;
+}
+
